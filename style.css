@@ -1,0 +1,75 @@
+/* azzeramento margini */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* sfondo pagina */
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+    color: rgb(47, 255, 64);
+}
+
+/* div in trasparenza */
+.contenitore {
+    border-radius: 12px;
+    width: 60%;
+    height: 50%;
+    margin: auto;
+    margin-top: 40px;
+    padding: 50px;
+    background-color:  rgba(028,028,028,0.5); 
+}
+
+.logo{
+   width: 400px;
+
+}
+
+.pulsanti {
+    background-color: rgb(47, 255, 64);
+    height: 40px;
+    padding: 12px;
+    margin-bottom: 12px;
+}
+
+.via{
+    color: white;
+    font-size: 18px;
+}
+
+.media{
+    width: 40%;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 6px;
+   
+}
+
+.alta{
+    width: 60%;
+    height: 30px;
+    background-color: green;
+    border-radius: 6px;
+}
+
+.bassa{
+    width: 20%;
+    height: 30px;
+    background-color:red;
+    border-radius: 6px;
+}
+
+.monopattino{
+    color: white;
+    font-size: 25px;
+}
